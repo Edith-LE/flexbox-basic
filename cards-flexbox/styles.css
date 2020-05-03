@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #D6D9D9;
+    font-family: 'Source Code Pro';
+}
+
+
+
+.contenedor{
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    
+}
+
+
+h2{border-color: #DAB0A2;
+    border-style: dashed;
+    border-width: 6px;
+    color: #AC6B5F;
+    margin-top: 50px;
+    flex: 0 1 100%;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.entrada{
+    border-radius: 10px;
+    background-color: #DBC0BF ;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido{
+    padding: 1rem ;
+
+}
+
+.contenido span{
+    font-weight: 600;
+    color: #5D5965 ;
+
+}
+
+h3{
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.boton{
+    border: 2.5px solid #969691;
+    border-radius: 5px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: #DDD0A8 ;
+    color: white;
+    padding: .8rem;
+    display: inline-block;
+}
+
+@media screen and (min-width:480px){
+    .contenido-principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .entrada{
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .entrada{
+        flex: 0 1 calc(33% - 1rem);
+    }
+
+}

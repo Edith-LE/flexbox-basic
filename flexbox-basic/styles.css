@@ -39,6 +39,7 @@ nav a{
     min-height: calc(100vh - 20px);
     max-width: calc(100vw - 10%);
     margin: 5% auto;
+    padding: 3% ;
 
 }
 
@@ -106,7 +107,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 60px;
     background-color: #BA68C8;
 }
